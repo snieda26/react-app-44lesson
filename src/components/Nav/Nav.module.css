@@ -1,0 +1,28 @@
+.nav {
+  grid-area: n;
+  background-color: chartreuse;
+}
+
+.item {
+  font-size: 17px;
+  font-weight: 700;
+  cursor: pointer;
+  color: red;
+}
+
+.item + .item {
+  padding-top: 20px;
+}
+
+.item:hover {
+  color: red;
+}
+
+.item a {
+  color: white;
+  text-decoration: none;
+}
+
+a.active {
+  color: red;
+}

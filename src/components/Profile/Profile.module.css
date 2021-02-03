@@ -1,0 +1,5 @@
+.profile {
+  grid-area: c;
+  background-color: dodgerblue;
+  padding-bottom: 1rem;
+}
